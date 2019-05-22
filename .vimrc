@@ -61,6 +61,7 @@ set statusline+=%{exists('g:loaded_fugitive')?fugitive#statusline():''}
 " YouCompleteMe related stuff
 let g:ycm_min_num_of_chars_for_completion = 4
 let g:ycm_python_binary_path = '/home/vagrant/.pyenv/shims/python3'
+set encoding=utf-8
 
 " ALE related stuff
 let g:ale_linters = {
