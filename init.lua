@@ -55,6 +55,7 @@ require 'paq' {
     'lewis6991/gitsigns.nvim';
     'folke/tokyonight.nvim';
     'nvim-telescope/telescope.nvim';
+    'neomake/neomake';
 }
 
 -- treesitter
